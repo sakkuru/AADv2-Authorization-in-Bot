@@ -1,0 +1,28 @@
+{
+    "name": "botauth-aadv2",
+    "version": "0.1.0",
+    "description": "BotAuth example for Azure AD v2",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "keywords": [
+        "oauth",
+        "botframework",
+        "aad"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "botauth": "next",
+        "botbuilder": "next",
+        "dotenv": "^2.0.0",
+        "express-session": "^1.14.2",
+        "nodemon": "^1.17.5",
+        "passport": "^0.3.2",
+        "passport-azure-ad": "^3.0.0",
+        "request": "^2.76.0",
+        "restify": "^4.2.0"
+    }
+}
